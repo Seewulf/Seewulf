@@ -8,11 +8,12 @@ I build and fix Microsoft Dynamics 365 Business Central extensions, integrations
 
 | Project | What it shows |
 |---|---|
+| [Explain and Resolve for Business Central](https://github.com/Seewulf/BC-Copilot-Across-Modules) | Copilot features: one checks an open purchase invoice against its receipts, the order and the vendor's posted invoices; the other ranks overdue customers from the customer ledger. Business Central computes every figure, the AI explains and drafts the emails, a person keeps or discards; nothing is posted or sent. Needs your own Claude API key (Azure OpenAI planned). Run live on a sandbox. 97 automated tests. |
 | [Stripe Invoice Payments for Business Central](https://github.com/Seewulf/BC-Stripe-Invoice-Payments) | A customer pays a posted sales invoice by card on Stripe Checkout, and a Job Queue sync posts and applies the payment. Syncing twice posts once; one failed payment never stops the others. Run live in Stripe test mode. 31 automated tests. |
 | [Royalty Accrual Sample for Business Central](https://github.com/Seewulf/BC-Royalty-Accrual-Sample) | Royalties from posted sales to the G/L: advance (minimum guarantee) recoupment, approval with an audit log, balanced accrual journal lines. 33 automated tests. |
 | [Odoo API Integrations](https://github.com/Seewulf/Odoo-API-Integrations) | An AL extension that imports Odoo products over JSON-RPC: API key in isolated storage, paged sync into a staging table. |
 
-All three are per-tenant extensions with no base-app changes, MIT licence.
+All four are per-tenant extensions with no base-app changes, MIT licence.
 
 ## What I work on
 
